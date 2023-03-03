@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "tmplpython"
+version = "0.1.0"
+description = "Project description."
+authors = ["yawn <102347321+yawn77@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/yawn77/tmplpython"
+classifiers = [
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Typing :: Typed",
+]
+packages = [{include = "tmplpython"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+flake8 = "6.0.0"
+mypy = "^1.0.1"
+tox = "4.4.6"
+coverage = "7.2.1"
+autopep8 = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
