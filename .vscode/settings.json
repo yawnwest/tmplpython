@@ -1,21 +1,18 @@
 {
-    "python.testing.pytestArgs": [
-        "tests"
-    ],
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true,
-    "python.linting.flake8Enabled": true,
-    "python.linting.enabled": true,
-    "python.linting.mypyEnabled": true,
-    "files.exclude": {
-        "**/.git": true,
-        "**/.DS_Store": true,
-        "**/Thumbs.db": true,
-        "**/.pytest_cache": true,
-        "**/__pycache__": true,
-        "**/.venv": true,
-        ".coverage": true,
-        ".mypy_cache": true,
-        ".tox": true,
-    }
+  "python.testing.pytestArgs": ["tests"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "mypy-type-checker.path": [".venv/bin/mypy"],
+  "mypy-type-checker.interpreter": [".venv/bin/python"],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.pytest_cache": true,
+    "**/__pycache__": true,
+    "**/.venv": true,
+    ".coverage": true,
+    ".mypy_cache": true,
+    ".tox": true
+  }
 }
