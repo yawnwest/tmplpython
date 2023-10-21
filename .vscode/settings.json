@@ -2,8 +2,8 @@
   "python.testing.pytestArgs": ["tests"],
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
-  "mypy-type-checker.path": [ ".venv/bin/mypy" ],
-  "mypy-type-checker.interpreter": [ ".venv/bin/python" ],
+  "mypy-type-checker.path": [".venv/bin/mypy"],
+  "mypy-type-checker.interpreter": [".venv/bin/python"],
   "files.exclude": {
     "**/.git": true,
     "**/.DS_Store": true,
@@ -13,6 +13,6 @@
     "**/.venv": true,
     ".coverage": true,
     ".mypy_cache": true,
-    ".tox": true,
-  },
+    ".tox": true
+  }
 }
