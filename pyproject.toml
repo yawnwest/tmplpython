@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tmplpython"
-version = "0.2.0"
+version = "0.3.0"
 description = "Project description."
 authors = ["yawn <102347321+yawn77@users.noreply.github.com>"]
 license = "MIT"
