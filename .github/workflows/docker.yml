@@ -4,6 +4,10 @@ on:
   release:
     types: [created]
 
+# mask issue that setting RELEASE_VERSION is not recognized by VS Code github extension
+env:
+  RELEASE_VERSION: ""
+
 jobs:
   docker:
     name: Docker
