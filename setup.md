@@ -6,7 +6,10 @@ This file describes how to setup this template.
 
 - poetry support
 - pytest, flake8, mypy, autopep, tox support
-- GitHub workflow for tests on multiple platforms and versions
+- docker support
+- GitHub workflow
+  - for testing on multiple platforms and versions
+  - for building a docker image
 
 ## Usage
 
@@ -20,7 +23,7 @@ This file describes how to setup this template.
    - Replace the `LICENSE` file
    - Edit the license link at the end of this file
 4. Rename directory `tmplpython` according to your needs
-5. Replace `tmplpython` to the new name in all files (i.e., .coveragerc, pyproject.toml, tox.ini, .vscode/launch.json, tests/test_main.py)
+5. Replace `tmplpython` to the new name in all files (i.e., .coveragerc, pyproject.toml, tox.ini, .vscode/launch.json, tests/test_main.py , Dockerfile, .github/workflows/docker.yml)
 6. Change `name`, `description`, `author`, `license`, `repository`, `classifiers` and `python` in `pyproject.toml`
 7. Change python versions in `tox.ini`
 8. Adapt versions `os` and `python-version` in GitHub Workflow `test.yml`
