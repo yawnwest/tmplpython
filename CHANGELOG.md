@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v0.3.1] - 2023-10-29
+
+### Changed
+
+- disable buffered output for docker image
+
 ## [v0.3.0] - 2023-10-24
 
 ### Added
