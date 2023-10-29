@@ -22,4 +22,4 @@ COPY --from=builder ${VIRTUAL_ENV} ${VIRTUAL_ENV}
 
 COPY tmplpython ./tmplpython
 
-ENTRYPOINT ["python", "-m", "tmplpython.main"]
+ENTRYPOINT ["python", "-u", "-m", "tmplpython.main"]
