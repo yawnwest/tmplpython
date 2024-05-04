@@ -1,6 +1,0 @@
-[run]
-branch = True
-include =
-    tmplpython/*
-omit =
-    */__init__.py/*

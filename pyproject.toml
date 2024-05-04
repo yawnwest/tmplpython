@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tmplpython"
-version = "0.3.1"
+version = "0.4.0"
 description = "Project description."
 authors = ["yawn <102347321+yawn77@users.noreply.github.com>"]
 license = "MIT"
@@ -16,7 +16,7 @@ classifiers = [
   "Operating System :: OS Independent",
   "Typing :: Typed",
 ]
-packages = [{include = "tmplpython"}]
+packages = [{ include = "tmplpython" }]
 
 [tool.poetry.dependencies]
 python = ">=3.8.1,<4.0"
@@ -28,6 +28,10 @@ pytest = "^7.2.0"
 tox = "^4.4.6"
 flake8 = "^6.1.0"
 autopep8 = "^2.0.4"
+
+[tool.coverage.run]
+source = ["tmplpython"]
+branch = true
 
 [build-system]
 requires = ["poetry-core"]
