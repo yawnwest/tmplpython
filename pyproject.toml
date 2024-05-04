@@ -22,12 +22,20 @@ packages = [{ include = "tmplpython" }]
 python = ">=3.8.1,<4.0"
 
 [tool.poetry.group.dev.dependencies]
-coverage = "^7.2.1"
-mypy = "^1.6.1"
-pytest = "^7.2.0"
-tox = "^4.4.6"
-flake8 = "^6.1.0"
-autopep8 = "^2.0.4"
+flake8 = "^7.0.0"
+pytest = "^8.2.0"
+coverage = "^7.5.0"
+tox = "^4.15.0"
+mypy = "^1.10.0"
+
+[tool.black]
+line-length = 160
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+strict = true
 
 [tool.coverage.run]
 source = ["tmplpython"]
