@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v0.4.0] - 2024-05-04
+
+### Added
+- added black code formatter
+
+### Changed
+
+- updated dependencies
+- matched latest launch settings of VS Code
+- moved coverage settings to pyproject.toml
+- changed max line length to 160
+
 ## [v0.3.1] - 2023-10-29
 
 ### Changed

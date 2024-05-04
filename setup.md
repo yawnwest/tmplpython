@@ -18,16 +18,20 @@ This file describes how to setup this template.
 1. Create a project based on this template
    - Select this template when creating a new project on GitHub
    - Go to [https://github.com/yawn77/tmplpython/](https://github.com/yawn77/tmplpython/) and click on _Use this template_
-2. Adapt `README.md`. Enter the project name and adapt sections to your needs (further inspiration: [https://www.makeareadme.com/](https://www.makeareadme.com/))
-3. Select a license (e.g., from [https://choosealicense.com/](https://choosealicense.com/))
+2. Ensure you have the following VS Code extensions installed
+   1. [flake8](https://marketplace.visualstudio.com/items?itemName=ms-python.flake8)
+   2. [black](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter)
+   3. [isort](https://marketplace.visualstudio.com/items?itemName=ms-python.isort)
+   4. [mypy](https://marketplace.visualstudio.com/items?itemName=ms-python.mypy-type-checker)
+3. Adapt `README.md`. Enter the project name and adapt sections to your needs (further inspiration: [https://www.makeareadme.com/](https://www.makeareadme.com/))
+4. Select a license (e.g., from [https://choosealicense.com/](https://choosealicense.com/))
    - Replace the `LICENSE` file
    - Edit the license link at the end of this file
-4. Rename directory `tmplpython` according to your needs
-5. Replace `tmplpython` to the new name in all files (i.e., .coveragerc, pyproject.toml, tox.ini, .vscode/launch.json, tests/test_main.py , Dockerfile, .github/workflows/docker.yml)
-6. Change `name`, `description`, `author`, `license`, `repository`, `classifiers` and `python` in `pyproject.toml`
-7. Change python versions in `tox.ini`
-8. Adapt versions `os` and `python-version` in GitHub Workflow `test.yml`
-9. Enable [mypy](https://marketplace.visualstudio.com/items?itemName=ms-python.mypy-type-checker) and [flake8](https://marketplace.visualstudio.com/items?itemName=ms-python.flake8) by installing the corresponding VS Code extensions
+5. Rename directory `tmplpython` according to your needs
+6. Replace `tmplpython` to the new name in all files (i.e., .coveragerc, pyproject.toml, tox.ini, .vscode/launch.json, tests/test_main.py , Dockerfile, .github/workflows/docker.yml)
+7. Change `name`, `description`, `author`, `license`, `repository`, `classifiers` and `python` in `pyproject.toml`
+8. Change python versions in `tox.ini`
+9.  Adapt versions `os` and `python-version` in GitHub Workflow `test.yml`
 10. Remove `setup.md`
 
 ### Intsall poetry

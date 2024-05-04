@@ -6,7 +6,7 @@
   "configurations": [
     {
       "name": "run tmplpython",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "tmplpython/main.py",
       "console": "integratedTerminal",
