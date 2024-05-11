@@ -4,8 +4,13 @@ on: [push, pull_request]
 
 jobs:
   lint:
+    name: Lint Dockerfile
+    runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: hadolint/hadolint-action@v3.1.0
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Lint
+        uses: hadolint/hadolint-action@v3.1.0
         with:
           dockerfile: Dockerfile
