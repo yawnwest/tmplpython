@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v0.5.0] - 2024-05-11
+### Added
+- ci lint job for Dockerfile
+
 ## [v0.4.1] - 2024-05-11
 ### Changed
 - updated github actions
@@ -42,7 +46,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - first version of template
 
-[unreleased]: https://github.com/yawn77/tmplpython/compare/v0.4.1...HEAD
+[unreleased]: https://github.com/yawn77/tmplpython/compare/v0.5.0...HEAD
+[v0.5.0]: https://github.com/yawn77/tmplpython/compare/v0.4.1...v0.5.0
 [v0.4.1]: https://github.com/yawn77/tmplpython/compare/v0.4.0...v0.4.1
 [v0.4.0]: https://github.com/yawn77/tmplpython/compare/v0.3.1...v0.4.0
 [v0.3.1]: https://github.com/yawn77/tmplpython/compare/v0.3.0...v0.3.1
